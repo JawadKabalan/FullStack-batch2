@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+         table.cable,th.cable,td.cable{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                <form>
+                    Title:<br/>
+                    <input type="text" id="title" name="title">
+                </form>
+              </td>  
+              <td>
+                <form>
+                    Short Title:<br/>
+                    <input type="text" id="stitle" name="shorttitle">
+                </form>
+              </td>
+              <td>
+                <form>
+                    Subj:<br/>BLST
+                    
+                </form>
+              </td>
+              <td>
+                <form>
+                    Num:<br/>
+                    <input type="number" id="num" name="num">
+                </form>
+              </td>
+              <td>
+                <form>
+                    Section:<br/>
+                    <input type="number" id="section" name="section">
+                </form>
+              </td>
+              <td>
+                <form>
+                    Year:<br/>0910
+                    
+                </form>
+              </td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+    <div>
+        <table class="cable">
+            <tr>
+            <td>
+                <tr>
+                    <td>
+                    <form>
+                        <input type="radio" name="El" id="EL"> Enrollment Limit
+                    </form>
+                    </td>
+                    <td>
+                        <form>
+                            Num: <br><input type="text" name="num" id="num">
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            RationL: <br><input type="text" name="Ra" id="Ra">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <form>
+                                <input type="radio" name="Cr" id="Cr"> Consent required
+                            </form>
+                        </td>
+                        <td></td>
+                        <td>
+                            <form>
+                                RationL: <br><input type="text" name="Ra" id="Ra">
+                            </form>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form>
+                            <input type="radio" name="El" id="EL"> Linitless Class
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                           Code: <br><input type="text" name="CD" id="CD">
+                        </form>     
+                    </td>
+                    <td>
+                        <form>
+                            RationL: <br><input type="text" name="Ra" id="Ra"><br>
+                            How tohandle over-enrollment:<br> <input type="text" name="oe" id="oe">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form>
+                            <input type="radio" name="Cr" id="Cr"> Prerequiest
+                        </form>     
+                    </td>
+                    <td></td>
+                    <td>
+                        <form>
+                            RationaL: <br><input type="text" name="Ra" id="Ra"><br>
+                            Required Prereqs.(major,course):<br> <input type="text" name="RPM" id="RPM"><br>
+                            Recommended Prereqs:<br><input type="text" name="RP" id="RP">
+                        </form>   
+                    </td>
+                
+            </td>
+        
+            <td>
+                <form>
+                    Class<br>
+                    Meeting/Week:<br>
+                    <input type="number" name="MW" id="MW"><br>
+                    Class Hours/Week:<br>
+                    <input type="number" name="CHW" id="CHW"><br>
+                    Semester(s) offered:<br>
+                    <label for="semesters">-None-</label><br>
+                    <input type="radio" name="Cr" id="Cr"> Incl, Semester in prereqs<br>
+                    <input type="radio" name="Cr" id="Cr"> Offered Only Once<br>
+                    <input type="radio" name="Cr" id="Cr"> Incl, in printed catalog
+                </form>
+            </td>
+            <td>
+                <form>
+                    KeyWords:<br>
+                    <input type="radio" name="Cr" id="Cr"> Science of non-Major<br>
+                    <input type="radio" name="Cr" id="Cr"> Fine arts for non-majors<br>
+                    <input type="radio" name="Cr" id="Cr"> Lab Science course<br>
+                    <input type="radio" name="Cr" id="Cr"> Artistic Practice<br>
+                    <input type="radio" name="Cr" id="Cr"> Foreign Language/culture taught in English<br>
+                    <input type="radio" name="Cr" id="Cr"> Community based language<br>
+                    <input type="radio" name="Cr" id="Cr"> Writing attentive<br>
+                    <input type="radio" name="Cr" id="Cr"> Writing Intensive
+
+                </form>
+            </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <td>
+                Approvals:<br>
+                <input type="radio" name="Cr" id="Cr"> CEP<br>
+                <input type="radio" name="Cr" id="Cr"> Committee of Six<br>
+                <input type="radio" name="Cr" id="Cr"> Faculty
+            </td>
+            <td>
+                <form>
+                    Date:<br>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                    <input type="text">
+                </form>
+            </td>
+            <td>
+                <form>
+                    Comment:<br>
+                    <input type="text"><br>
+                    <input type="text"><br>
+                    <input type="text">
+                </form>
+            </td>
+        </table>
+    </div>
+</body>
+</html>
